@@ -1,0 +1,31 @@
+---
+title: "Wei Lin - MBA Portfolio"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: full
+---
+
+# About {#about}
+Hi, I’m **Wei Lin**, an MBA student at **University Canada West**. I focus on digital transformation, data analytics, and consulting. I enjoy turning data into practical business insights.
+
+# Education {#education}
+- **MBA**, University Canada West — *Expected 2026*  
+-  **Bachelor of Chemical Engineering**, LNPU *(2018 – 2022)*  
+  Specialized in Chemical Engineering, with a strong foundation in analytical methods, project coordination, and process optimization.
+
+# Experience {#experience}
+- **Dispatcher**, **Hengshen Group** *(Shenyuan Company)*  
+  Coordinated production and logistics schedules to ensure efficient operations.  
+  Developed strong problem-solving, communication, and time-management skills in a fast-paced industrial environment.
+
+# Skills {#skills}
+- Business Analytics (Excel, Tableau, basic Python)  
+- Strategy & Market Research  
+- Financial Modeling & Valuation  
+- Multilingual communication: **Mandarin, English, French, Japanese**  
+
+# Contact {#contact}
+- Email: wei.lin@myucwest.ca  
+- Phone: 236-808-8599
