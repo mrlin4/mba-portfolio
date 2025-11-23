@@ -1,0 +1,90 @@
+---
+title: "Projects"
+page-layout: full
+---
+
+```{=html}
+<p class="lead mb-4">
+  Here are two representative projects from my MBA studies, focusing on
+  sustainability, supply chains, and human–machine collaboration.
+</p>
+
+<h2 class="h5 text-uppercase text-muted mb-3">Featured Projects</h2>
+
+<div class="row gy-4">
+
+  <!-- Project 1: Human–Machine Collaboration -->
+  <div class="col-md-6">
+    <div class="card shadow-sm project-card modern-project-card">
+      
+      <!-- Gradient Icon -->
+      <div class="project-icon gradient-blue">
+        🤖
+      </div>
+
+      <div class="card-body">
+        <h4 class="card-title">Human–Machine Real-Time Collaboration Framework</h4>
+
+        <p class="card-subtitle text-muted mb-2">
+          Developing a framework for human–machine real-time collaboration to enhance sustainability and resilience.
+        </p>
+
+        <p class="card-text">
+          Designed a conceptual framework showing how human operators and AI systems can work together in real time
+          to support sustainable operations and resilient decision-making. The project mapped key interaction points,
+          information flows, and feedback loops between people and machines.
+        </p>
+
+        <ul class="project-points">
+          <li><strong>Goal:</strong> Improve decision speed and quality while reducing resource waste.</li>
+          <li><strong>Methods:</strong> Literature review, systems thinking, and process mapping.</li>
+          <li><strong>Outcome:</strong> A structured model that can be used as a blueprint for future AI-supported workflows.</li>
+        </ul>
+
+        <div class="tag-group">
+          <span class="tag-pill">AI &amp; Automation</span>
+          <span class="tag-pill">Sustainability</span>
+          <span class="tag-pill">Human–Computer Interaction</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2: Tariff War & BC Fruit Supply Chain -->
+  <div class="col-md-6">
+    <div class="card shadow-sm project-card modern-project-card">
+
+      <!-- Gradient Icon -->
+      <div class="project-icon gradient-orange">
+        📦
+      </div>
+
+      <div class="card-body">
+        <h4 class="card-title">Tariff War Impact on BC Fresh Fruit Exports</h4>
+
+        <p class="card-subtitle text-muted mb-2">
+          Analyzing how trade conflicts and tariffs affect the fresh fruit export supply chain in British Columbia.
+        </p>
+
+        <p class="card-text">
+          Studied how changing tariffs and trade policies influence costs, lead times, and risks in the BC fruit export supply chain.
+          The project identified critical nodes such as farms, packhouses, ports, and international buyers.
+        </p>
+
+        <ul class="project-points">
+          <li><strong>Goal:</strong> Understand vulnerability of BC exporters under tariff shocks.</li>
+          <li><strong>Methods:</strong> Desk research, supply chain mapping, and scenario thinking.</li>
+          <li><strong>Outcome:</strong> A set of risk points and strategic options for diversification and resilience.</li>
+        </ul>
+
+        <div class="tag-group">
+          <span class="tag-pill">Supply Chain</span>
+          <span class="tag-pill">International Trade</span>
+          <span class="tag-pill">Policy Analysis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+```

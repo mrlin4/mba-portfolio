@@ -7,25 +7,48 @@ format:
     page-layout: full
 ---
 
-# About {#about}
-Hi, I’m **Wei Lin**, an MBA student at **University Canada West**. I focus on digital transformation, data analytics, and consulting. I enjoy turning data into practical business insights.
+<div class="hero d-flex flex-column flex-md-row align-items-center justify-content-between mb-5 p-4" style="background-color:#f8f9fa; border-radius:1rem;">
 
-# Education {#education}
-- **MBA**, University Canada West — *Expected 2026*  
--  **Bachelor of Chemical Engineering**, LNPU *(2018 – 2022)*  
-  Specialized in Chemical Engineering, with a strong foundation in analytical methods, project coordination, and process optimization.
+<div class="hero-text me-md-4">
 
-# Experience {#experience}
-- **Dispatcher**, **Hengshen Group** *(Shenyuan Company)*  
-  Coordinated production and logistics schedules to ensure efficient operations.  
-  Developed strong problem-solving, communication, and time-management skills in a fast-paced industrial environment.
+# Wei Lin
 
-# Skills {#skills}
-- Business Analytics (Excel, Tableau, basic Python)  
-- Strategy & Market Research  
-- Financial Modeling & Valuation  
-- Multilingual communication: **Mandarin, English, French, Japanese**  
+MBA Student · Digital Transformation · Data & AI  
 
-# Contact {#contact}
-- Email: wei.lin@myucwest.ca  
-- Phone: 236-808-8599
+Looking for opportunities in **data-driven marketing** and **digital transformation**.
+
+I am an MBA student at **University Canada West**.  
+I am interested in digital transformation, data analytics, and using AI tools to support business decisions.
+
+[View CV / Resume](resume.qmd){.btn .btn-primary .me-2}
+[View MBA Projects](projects.qmd){.btn .btn-outline-secondary}
+
+</div>
+
+<div class="hero-photo mt-4 mt-md-0 text-center">
+![](images/profile.jpg){.img-fluid .rounded-circle .shadow style="max-width:260px;"}
+</div>
+
+</div>
+
+## Quick Highlights
+
+- Background in **Chemical Engineering** and **MBA** training in Canada.
+- Experience as **Dispatcher** at Hengshen Group (Shenyuan Company), coordinating daily production and logistics.
+- Built **finance and marketing case studies** during the MBA (for example, financial models, market analysis, and AI-in-business projects).
+- Multilingual: **Mandarin**, **English**, **French (basic)**, **Japanese (basic)**.
+
+## What you can find on this site
+
+- **Home** – quick overview of who I am and my focus areas.
+- **Resume** – my education, work experience, and key skills on one page.
+- **Projects** – selected MBA projects and case studies with short descriptions.
+- **About** – my story, career goals, and what I am learning now.
+- **Contact** – email and LinkedIn links for work, networking, or collaboration.
+
+---
+
+<div class="text-muted small mt-5 mb-3">
+© 2025 Wei Lin · Built with Quarto
+</div>
+

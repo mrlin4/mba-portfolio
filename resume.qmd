@@ -1,0 +1,142 @@
+---
+title: "Resume"
+page-layout: full
+---
+
+```{=html}
+<!-- ===== Top Header / Hero ===== -->
+<div class="d-flex justify-content-between align-items-start mb-4 pb-3 border-bottom">
+
+  <!-- Left: Name + Tags + Buttons -->
+  <div>
+    <h1 class="mb-0">Wei Lin</h1>
+    <p class="text-muted mb-2">
+      MBA Student · Digital Transformation · Marketing &amp; Data · AI for Business
+    </p>
+
+    <div class="d-flex flex-wrap gap-2 mb-2">
+      <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis resume-pill">Digital Transformation</span>
+      <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis resume-pill">Marketing Analytics</span>
+      <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis resume-pill">AI for Business</span>
+    </div>
+
+    <div class="d-flex flex-wrap gap-2">
+      <a href="mrlin907733696@gmail.com" class="btn btn-outline-secondary btn-sm">📧 Email</a>
+      <a href="https://www.linkedin.com/in/%E7%82%9C-%E6%9E%97-8178162aa/" class="btn btn-outline-secondary btn-sm">🔗 LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Right: Profile Photo -->
+  <div>
+    <img src="images/profile3.jpg"
+         class="rounded-circle border shadow-sm"
+         style="width: 140px; height: 140px; object-fit: cover;">
+  </div>
+
+</div>
+
+
+<!-- ===== Summary ===== -->
+<section class="mb-4">
+  <div class="card shadow-sm border-0 resume-card">
+    <div class="card-body">
+      <div class="resume-section-label">Professional Summary</div>
+      <p class="lead mb-0">
+        I am an MBA student at <strong>University Canada West</strong> with a background in
+        <strong>Chemical Engineering</strong> and hands-on experience as a
+        <strong>Dispatcher</strong>. I am interested in
+        digital transformation, business analytics, and using AI tools to support smarter,
+        more data-driven business decisions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section class="mb-4">
+  <div class="card shadow-sm border-0 resume-card">
+    <div class="card-body">
+      <div class="resume-section-label">Skills</div>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h3 class="h5 mb-2">Business &amp; Analytics</h3>
+          <ul class="resume-list">
+            <li>Marketing Analytics</li>
+            <li>Business Strategy &amp; Market Research</li>
+            <li>Data Analysis &amp; Visualization</li>
+            <li>Process Optimization</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h3 class="h5 mb-2">Tools &amp; Technical</h3>
+          <ul class="resume-list">
+            <li>Excel, Tableau</li>
+            <li>Python (basic), SQL (basic)</li>
+            <li>AI tools for business decision-making</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="h6 text-uppercase text-muted mt-4 mb-2">Languages</h3>
+      <div class="d-flex flex-wrap gap-2">
+        <span class="badge rounded-pill bg-light text-dark border">Mandarin · Native</span>
+        <span class="badge rounded-pill bg-light text-dark border">English · Fluent</span>
+        <span class="badge rounded-pill bg-light text-dark border">French · Basic</span>
+        <span class="badge rounded-pill bg-light text-dark border">Japanese · Basic</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Experience ===== -->
+<section class="mb-4">
+  <div class="card shadow-sm border-0 resume-card">
+    <div class="card-body">
+      <div class="resume-section-label">Experience</div>
+
+      <div class="resume-item">
+        <div class="d-flex justify-content-between flex-wrap mb-1">
+          <h3 class="h5 mb-0">Dispatcher · Hengshen Group</h3>
+          <span class="text-muted small">2022 – 2023 · China</span>
+        </div>
+        <ul class="resume-list">
+          <li>Coordinated production and logistics schedules in a fast-paced manufacturing environment.</li>
+          <li>Worked with cross-functional teams to solve operational issues.</li>
+          <li>Improved accuracy and efficiency using Excel and clear communication.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Education ===== -->
+<section>
+  <div class="card shadow-sm border-0 resume-card">
+    <div class="card-body">
+      <div class="resume-section-label">Education</div>
+
+      <div class="resume-item mb-3">
+        <div class="d-flex justify-content-between flex-wrap mb-1">
+          <h3 class="h5 mb-0">MBA · University Canada West</h3>
+          <span class="text-muted small">2024 – Present · Vancouver</span>
+        </div>
+        <ul class="resume-list">
+          <li>Coursework in digital marketing, business analytics, cloud computing, and AI in business.</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <div class="d-flex justify-content-between flex-wrap mb-1">
+          <h3 class="h5 mb-0">B.Eng · Chemical Engineering · LNPU</h3>
+          <span class="text-muted small">2018 – 2022</span>
+        </div>
+        <ul class="resume-list">
+          <li>Studied chemical processes, safety, and industrial operations.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+```

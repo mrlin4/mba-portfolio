@@ -1,0 +1,100 @@
+---
+title: "Contact"
+page-layout: full
+---
+
+```{=html}
+<p class="lead">
+  Feel free to reach out. I’m always open to discussing projects,
+  collaboration opportunities, or sharing ideas about digital transformation,
+  analytics, and AI for business.
+</p>
+
+<div class="row gy-4">
+
+  <!-- Email -->
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="d-flex align-items-center mb-2">
+        <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">📧</span>
+        <h4 class="h6 mb-0">Email</h4>
+      </div>
+      <p class="mb-2 text-muted">Send me an email anytime.</p>
+      <a href="mrlin907733696@gmail.com" class="btn btn-outline-primary btn-sm">
+        Send Email
+      </a>
+    </div>
+  </div>
+
+<!-- Phone -->
+<div class="col-md-3">
+  <div class="card shadow-sm border-0 p-3 h-100">
+    <div class="d-flex align-items-center mb-2">
+      <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">📞</span>
+      <h4 class="h6 mb-0">Phone</h4>
+    </div>
+    <p class="mb-2 text-muted">Click to copy my phone number.</p>
+
+    <button class="btn btn-outline-primary btn-sm" onclick="copyPhone()">
+      Copy Number
+    </button>
+
+    <small id="copy-status" class="text-success" style="display:none;">
+      ✔ Copied!
+    </small>
+  </div>
+</div>
+
+<script>
+function copyPhone() {
+  const btn = event.target;
+  navigator.clipboard.writeText("236-808-8599").then(function() {
+    btn.textContent = "Copied!";
+    btn.classList.remove("btn-outline-primary");
+    btn.classList.add("btn-primary");
+    setTimeout(() => {
+      btn.textContent = "Copy Number";
+      btn.classList.add("btn-outline-primary");
+      btn.classList.remove("btn-primary");
+    }, 2000);
+  });
+}
+</script>
+
+
+  <!-- LinkedIn -->
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="d-flex align-items-center mb-2">
+        <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">🔗</span>
+        <h4 class="h6 mb-0">LinkedIn</h4>
+      </div>
+      <p class="mb-2 text-muted">Connect with me on LinkedIn.</p>
+      <a href="https://www.linkedin.com/in/%E7%82%9C-%E6%9E%97-8178162aa/"
+         class="btn btn-outline-primary btn-sm"
+         target="_blank">
+        Visit Profile
+      </a>
+    </div>
+  </div>
+
+  <!-- Facebook -->
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="d-flex align-items-center mb-2">
+        <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">📘</span>
+        <h4 class="h6 mb-0">Facebook</h4>
+      </div>
+      <p class="mb-2 text-muted">Find me on Facebook.</p>
+      <a href="https://facebook.com/mrlin4"
+         class="btn btn-outline-primary btn-sm"
+         target="_blank">
+        Visit Profile
+      </a>
+    </div>
+  </div>
+
+</div>
+
+
+```

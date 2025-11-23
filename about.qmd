@@ -2,4 +2,112 @@
 title: "About"
 ---
 
-About this site
+```{=html}
+<div class="about-hero-simple mb-4">
+  <h1>About Me</h1>
+  <p class="lead">
+    MBA student in Vancouver, combining a Chemical Engineering background with
+    digital transformation, data analytics, and AI for business.
+  </p>
+  <div class="mb-2">
+    <span class="tag-pill">Digital Transformation</span>
+    <span class="tag-pill">Marketing &amp; Data</span>
+    <span class="tag-pill">AI for Business</span>
+  </div>
+  <a class="btn btn-primary me-2" href="resume.html">View Resume</a>
+  <a class="btn btn-outline-secondary" href="projects.html">View Projects</a>
+</div>
+
+<hr class="my-4" />
+
+<div class="card shadow-sm border-0 about-highlight-card mb-5">
+  <div class="card-body">
+    <h2 class="h4 mb-3">Quick Snapshot</h2>
+    <ul class="list-unstyled mb-0">
+      <li>🎓 MBA at <strong>University Canada West</strong> — Expected <strong>2026</strong></li>
+      <li>🧪 B.Eng in <strong>Chemical Engineering</strong>, Liaoning Petrochemical University (LNPU)</li>
+      <li>📦 Former <strong>Dispatcher</strong> at Hengshen Group</li>
+      <li>🌏 Languages: Mandarin, English, French (basic), Japanese (basic)</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="mb-3">Core Strengths</h2>
+<div class="row mb-5">
+  <div class="col-md-4 mb-3">
+    <div class="strength-box">
+      <h3 class="h5">Data-Driven Mindset</h3>
+      <p>
+        I enjoy turning complex data into simple stories that support marketing and
+        business decisions.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-3">
+    <div class="strength-box">
+      <h3 class="h5">Cross-Disciplinary Background</h3>
+      <p>
+        Chemical Engineering training plus MBA studies gives me both technical and
+        business perspectives.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-3">
+    <div class="strength-box">
+      <h3 class="h5">AI &amp; Digital Tools</h3>
+      <p>
+        Hands-on experience using LLMs, dashboards, and cloud tools to support projects
+        and coursework.
+      </p>
+    </div>
+  </div>
+</div>
+
+<h2 class="mb-3">My Journey</h2>
+<div class="timeline mb-5">
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <h3 class="h5">2018 – 2022 · Chemical Engineering Student</h3>
+      <p>
+        Studied at <strong>Liaoning Petrochemical University (LNPU)</strong>,
+        focusing on chemical processes, safety, and industrial operations.
+      </p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <h3 class="h5">2022 – 2023 · Dispatcher at Hengshen Group</h3>
+      <p>
+        Coordinated production and logistics, managed schedules, and helped keep a
+        fast-paced factory running smoothly.
+      </p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <h3 class="h5">2024 – Present · MBA in Canada</h3>
+      <p>
+        Moved to Vancouver and began my MBA at UCW, focusing on digital transformation,
+        analytics, and how AI can support business strategy.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="mb-3">Outside of Work &amp; Study</h2>
+<p>
+  In my free time, I like to explore Vancouver by bike, try photography, and keep
+  improving my language skills. These activities help me stay curious, observant, and
+  comfortable in new environments — qualities I also bring to group projects and
+  consulting work.
+</p>
+
+```
+

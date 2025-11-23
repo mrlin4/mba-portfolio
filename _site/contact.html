@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Wei Lin - MBA Portfolio – Portfolio</title>
+<title>Contact – Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link active" href="./contact.html" aria-current="page"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Wei Lin - MBA Portfolio</h1>
+<h1 class="title">Contact</h1>
 </div>
 
 
@@ -146,44 +146,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="hero d-flex flex-column flex-md-row align-items-center justify-content-between mb-5 p-4" style="background-color:#f8f9fa; border-radius:1rem;">
-<section id="wei-lin" class="level1 hero-text me-md-4">
-<h1>Wei Lin</h1>
-<p>MBA Student · Digital Transformation · Data &amp; AI</p>
-<p>Looking for opportunities in <strong>data-driven marketing</strong> and <strong>digital transformation</strong>.</p>
-<p>I am an MBA student at <strong>University Canada West</strong>.<br>
-I am interested in digital transformation, data analytics, and using AI tools to support business decisions.</p>
-<p><a href="./resume.html" class="btn btn-primary me-2">View CV / Resume</a> <a href="./projects.html" class="btn btn-outline-secondary">View MBA Projects</a></p>
-</section>
-<div class="hero-photo mt-4 mt-md-0 text-center">
-<p><img src="images/profile.jpg" class="img-fluid rounded-circle shadow" style="max-width:260px;"></p>
+<p class="lead">
+  Feel free to reach out. I’m always open to discussing projects,
+  collaboration opportunities, or sharing ideas about digital transformation,
+  analytics, and AI for business.
+</p>
+
+<div class="row gy-4">
+
+  <!-- Email -->
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="d-flex align-items-center mb-2">
+        <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">📧</span>
+        <h4 class="h6 mb-0 anchored">Email</h4>
+      </div>
+      <p class="mb-2 text-muted">Send me an email anytime.</p>
+      <a href="mrlin907733696@gmail.com" class="btn btn-outline-primary btn-sm">
+        Send Email
+      </a>
+    </div>
+  </div>
+
+<!-- Phone -->
+<div class="col-md-3">
+  <div class="card shadow-sm border-0 p-3 h-100">
+    <div class="d-flex align-items-center mb-2">
+      <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">📞</span>
+      <h4 class="h6 mb-0 anchored">Phone</h4>
+    </div>
+    <p class="mb-2 text-muted">Click to copy my phone number.</p>
+
+    <button class="btn btn-outline-primary btn-sm" onclick="copyPhone()">
+      Copy Number
+    </button>
+
+    <small id="copy-status" class="text-success" style="display:none;">
+      ✔ Copied!
+    </small>
+  </div>
 </div>
-</div>
-<section id="quick-highlights" class="level2">
-<h2 class="anchored" data-anchor-id="quick-highlights">Quick Highlights</h2>
-<ul>
-<li>Background in <strong>Chemical Engineering</strong> and <strong>MBA</strong> training in Canada.</li>
-<li>Experience as <strong>Dispatcher</strong> at Hengshen Group (Shenyuan Company), coordinating daily production and logistics.</li>
-<li>Built <strong>finance and marketing case studies</strong> during the MBA (for example, financial models, market analysis, and AI-in-business projects).</li>
-<li>Multilingual: <strong>Mandarin</strong>, <strong>English</strong>, <strong>French (basic)</strong>, <strong>Japanese (basic)</strong>.</li>
-</ul>
-</section>
-<section id="what-you-can-find-on-this-site" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-can-find-on-this-site">What you can find on this site</h2>
-<ul>
-<li><strong>Home</strong> – quick overview of who I am and my focus areas.</li>
-<li><strong>Resume</strong> – my education, work experience, and key skills on one page.</li>
-<li><strong>Projects</strong> – selected MBA projects and case studies with short descriptions.</li>
-<li><strong>About</strong> – my story, career goals, and what I am learning now.</li>
-<li><strong>Contact</strong> – email and LinkedIn links for work, networking, or collaboration.</li>
-</ul>
-<hr>
-<div class="text-muted small mt-5 mb-3">
-<p>© 2025 Wei Lin · Built with Quarto</p>
+
+<script>
+function copyPhone() {
+  const btn = event.target;
+  navigator.clipboard.writeText("236-808-8599").then(function() {
+    btn.textContent = "Copied!";
+    btn.classList.remove("btn-outline-primary");
+    btn.classList.add("btn-primary");
+    setTimeout(() => {
+      btn.textContent = "Copy Number";
+      btn.classList.add("btn-outline-primary");
+      btn.classList.remove("btn-primary");
+    }, 2000);
+  });
+}
+</script>
+
+
+  <!-- LinkedIn -->
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="d-flex align-items-center mb-2">
+        <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">🔗</span>
+        <h4 class="h6 mb-0 anchored">LinkedIn</h4>
+      </div>
+      <p class="mb-2 text-muted">Connect with me on LinkedIn.</p>
+      <a href="https://www.linkedin.com/in/%E7%82%9C-%E6%9E%97-8178162aa/" class="btn btn-outline-primary btn-sm" target="_blank">
+        Visit Profile
+      </a>
+    </div>
+  </div>
+
+  <!-- Facebook -->
+  <div class="col-md-3">
+    <div class="card shadow-sm border-0 p-3 h-100">
+      <div class="d-flex align-items-center mb-2">
+        <span class="badge bg-primary-subtle text-primary-emphasis p-2 me-2">📘</span>
+        <h4 class="h6 mb-0 anchored">Facebook</h4>
+      </div>
+      <p class="mb-2 text-muted">Find me on Facebook.</p>
+      <a href="https://facebook.com/mrlin4" class="btn btn-outline-primary btn-sm" target="_blank">
+        Visit Profile
+      </a>
+    </div>
+  </div>
+
 </div>
 
 
-</section>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

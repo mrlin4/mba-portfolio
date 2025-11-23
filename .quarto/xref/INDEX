@@ -4,5 +4,17 @@
   },
   "about.qmd": {
     "about.html": "229385b1"
+  },
+  "contact.qmd": {
+    "contact.html": "876109c4"
+  },
+  "projects.qmd": {
+    "projects.html": "b794dff0"
+  },
+  "resume.qmd": {
+    "resume.html": "5ede2f6c"
+  },
+  "index copy.qmd": {
+    "index copy.html": "3869aea4"
   }
 }
